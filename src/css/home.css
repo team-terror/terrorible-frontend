@@ -1,4 +1,4 @@
-#splash-wrapper {
+.splash-wrapper {
   position: relative;
 }
 
@@ -14,4 +14,26 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
+}
+
+.search-wrapper {
+  margin: 2em;
+}
+
+.listings-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.listing {
+  display: flex;
+}
+
+.listing-thumbnail {
+  max-width: 200px;
+  align-self: center;
+}
+
+.listing-address {
+  font-size: 1.2em;
 }
