@@ -1,0 +1,24 @@
+.full-width-img {
+  width: 100%;
+}
+
+button {
+  height: 44px;
+  width: 200px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #03a9f4;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.white {
+  color: #ffffff;
+}
+
+.pt-1 {
+  padding-top: 1em;
+}
