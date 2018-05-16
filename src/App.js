@@ -6,6 +6,7 @@ import HomeContainer from './components/home/HomeContainer'
 import './css/App.css'
 import './css/navigation.css'
 import './css/home.css'
+import './css/modal.css'
 
 class App extends Component {
   render() {
