@@ -2,12 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Navigation from '../shared/Navigation'
 import SearchListings from './SearchListings'
+import SignUp from '../modals/SignUp'
 
 const HomeContainer = (props) => {
   return (
-    <div>
+    <div className="home-wrapper">
 
       <Navigation/>
+
+      <SignUp/>
 
       <div className="splash-wrapper">
         <img src={require("../../images/hotelroom-bw-1.png")}

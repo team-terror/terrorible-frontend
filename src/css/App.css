@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+p, h1, h2, a, body, div {
+  margin: 0;
+}
+
 .full-width-img {
   width: 100%;
 }
@@ -43,4 +47,8 @@ input {
   max-width: 600px;
   display: flex;
   margin: 0 auto;
+}
+
+.hide {
+  display: none;
 }
