@@ -27,6 +27,7 @@
 
 .listing {
   display: flex;
+  margin: 2em 0em;
 }
 
 .listing-thumbnail {
